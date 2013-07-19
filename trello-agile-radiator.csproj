@@ -61,6 +61,10 @@
     <Content Include="Config\config.js">
       <DependentUpon>config.ts</DependentUpon>
     </Content>
+    <TypeScriptCompile Include="node.d.ts" />
+    <Content Include="node.d.js">
+      <DependentUpon>node.d.ts</DependentUpon>
+    </Content>
     <Content Include="node_modules\trello\.idea\encodings.xml" />
     <Content Include="node_modules\trello\.idea\misc.xml" />
     <Content Include="node_modules\trello\.idea\modules.xml" />
