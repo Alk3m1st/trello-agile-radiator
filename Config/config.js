@@ -1,15 +1,20 @@
 // Class
 var TrelloAuthConfig = (function () {
-    function TrelloAuthConfig(appId, appKey) {
-        this.appId = appId;
-        this.appKey = appKey;
+    function TrelloAuthConfig(developerAppKey, developerApiSecret, token) {
+        this.developerAppKey = developerAppKey;
+        this.developerApiSecret = developerApiSecret;
+        this.token = token;
     }
-    TrelloAuthConfig.prototype.getApiId = function () {
-        return this.appId;
+    TrelloAuthConfig.prototype.getDeveloperApiKey = function () {
+        return this.developerAppKey;
     };
 
-    TrelloAuthConfig.prototype.getApiKey = function () {
-        return this.appKey;
+    TrelloAuthConfig.prototype.getDeveloperApiSecret = function () {
+        return this.developerApiSecret;
+    };
+
+    TrelloAuthConfig.prototype.getToken = function () {
+        return this.token;
     };
     return TrelloAuthConfig;
 })();

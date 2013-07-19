@@ -55,7 +55,7 @@
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
   </PropertyGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="fetch.ts" />
+    <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\config.js">
@@ -83,8 +83,8 @@
     <Content Include="node_modules\trello\test\spec.js" />
     <TypeScriptCompile Include="Lib\fetcher.ts" />
     <TypeScriptCompile Include="Config\config.ts" />
-    <Content Include="fetch.js">
-      <DependentUpon>fetch.ts</DependentUpon>
+    <Content Include="app.js">
+      <DependentUpon>app.ts</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>

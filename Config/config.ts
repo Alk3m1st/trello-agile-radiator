@@ -1,13 +1,20 @@
 export interface AuthConfig {
-    getApiId(): string;
-    getApiKey(): string;
+    getDeveloperApiKey(): string;       // Key
+    getDeveloperApiSecret(): string;    // Secret (for OAuth signing)
+    getToken(): string;                 // Token (usually obtained from user)
 }
 
 // Class
 export class TrelloAuthConfig implements AuthConfig {
-    constructor(private appId: string, private appKey: string) { }
+    constructor(
+        private developerAppKey: string,
+        private developerApiSecret: string,
+        private token: string) {
+    }
 
-    public getApiId(): string { return this.appId; }
+    public getDeveloperApiKey(): string { return this.developerAppKey; }
 
-    public getApiKey(): string { return this.appKey; }
+    public getDeveloperApiSecret(): string { return this.developerApiSecret; }
+
+    public getToken(): string { return this.token; }
 }
