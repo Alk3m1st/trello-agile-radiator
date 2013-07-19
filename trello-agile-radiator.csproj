@@ -61,10 +61,36 @@
     <Content Include="Config\config.js">
       <DependentUpon>config.ts</DependentUpon>
     </Content>
+    <Content Include="node_modules\trello\.idea\encodings.xml" />
+    <Content Include="node_modules\trello\.idea\misc.xml" />
+    <Content Include="node_modules\trello\.idea\modules.xml" />
+    <Content Include="node_modules\trello\.idea\scopes\scope_settings.xml" />
+    <Content Include="node_modules\trello\.idea\vcs.xml" />
+    <Content Include="node_modules\trello\.idea\workspace.xml" />
+    <Content Include="node_modules\trello\main.js" />
+    <Content Include="node_modules\trello\node_modules\restler\index.js" />
+    <Content Include="node_modules\trello\node_modules\restler\lib\multipartform.js" />
+    <Content Include="node_modules\trello\node_modules\restler\lib\restler.js" />
+    <Content Include="node_modules\trello\node_modules\restler\test\all.js" />
+    <Content Include="node_modules\trello\node_modules\restler\test\restler.js" />
+    <Content Include="node_modules\trello\test\spec.js" />
     <TypeScriptCompile Include="Config\config.ts" />
     <Content Include="fetch.js">
       <DependentUpon>fetch.ts</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="node_modules\trello\.idea\.name" />
+    <Content Include="node_modules\trello\.idea\trello.iml" />
+    <Content Include="node_modules\trello\.npmignore" />
+    <Content Include="node_modules\trello\.travis.yml" />
+    <Content Include="node_modules\trello\node_modules\restler\.npmignore" />
+    <Content Include="node_modules\trello\node_modules\restler\bin\restler" />
+    <Content Include="node_modules\trello\node_modules\restler\MIT-LICENSE" />
+    <Content Include="node_modules\trello\node_modules\restler\package.json" />
+    <Content Include="node_modules\trello\node_modules\restler\README.md" />
+    <Content Include="node_modules\trello\package.json" />
+    <Content Include="node_modules\trello\README.md" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
 </Project>
