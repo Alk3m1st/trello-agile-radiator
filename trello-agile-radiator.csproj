@@ -61,6 +61,9 @@
     <Content Include="Config\config.js">
       <DependentUpon>config.ts</DependentUpon>
     </Content>
+    <Content Include="Lib\fetcher.js">
+      <DependentUpon>fetcher.ts</DependentUpon>
+    </Content>
     <TypeScriptCompile Include="node.d.ts" />
     <Content Include="node.d.js">
       <DependentUpon>node.d.ts</DependentUpon>
@@ -78,6 +81,7 @@
     <Content Include="node_modules\trello\node_modules\restler\test\all.js" />
     <Content Include="node_modules\trello\node_modules\restler\test\restler.js" />
     <Content Include="node_modules\trello\test\spec.js" />
+    <TypeScriptCompile Include="Lib\fetcher.ts" />
     <TypeScriptCompile Include="Config\config.ts" />
     <Content Include="fetch.js">
       <DependentUpon>fetch.ts</DependentUpon>
