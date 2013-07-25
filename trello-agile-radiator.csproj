@@ -65,6 +65,10 @@
       <DependentUpon>fetcher.ts</DependentUpon>
     </Content>
     <TypeScriptCompile Include="tests\tsUnit.ts" />
+    <TypeScriptCompile Include="tests\tests.ts" />
+    <Content Include="tests\tests.js">
+      <DependentUpon>tests.ts</DependentUpon>
+    </Content>
     <Content Include="tests\tsUnit.js">
       <DependentUpon>tsUnit.ts</DependentUpon>
     </Content>
