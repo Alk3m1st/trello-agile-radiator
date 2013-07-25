@@ -64,6 +64,10 @@
     <Content Include="Lib\fetcher.js">
       <DependentUpon>fetcher.ts</DependentUpon>
     </Content>
+    <TypeScriptCompile Include="tests\tsUnit.ts" />
+    <Content Include="tests\tsUnit.js">
+      <DependentUpon>tsUnit.ts</DependentUpon>
+    </Content>
     <TypeScriptCompile Include="Lib\trello.ts" />
     <Content Include="Lib\trello.js">
       <DependentUpon>trello.ts</DependentUpon>
