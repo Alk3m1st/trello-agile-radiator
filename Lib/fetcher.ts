@@ -15,6 +15,8 @@ export class Fetcher implements IFetcher {
     public fetch(board: string) {
         this.trello.readBoard(board, function (data) {
             console.log(data);
+
+            return data;
         });
     }
 }

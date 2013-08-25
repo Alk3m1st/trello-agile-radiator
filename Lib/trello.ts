@@ -5,15 +5,16 @@ declare var restler;
 restler = require("restler");
 
 export interface ITrello {
+    readBoard(boardId, callback): void;
 }
 
 export class Trello implements ITrello {
-    private uri: string;
+    private _uri: string;
 
     constructor(
         private key: string,
         private token: string) {
-            this.uri = "https://api.trello.com";
+            this._uri = "https://api.trello.com";
             this.key = key;
             this.token = token;
     }
@@ -32,7 +33,7 @@ export class Trello implements ITrello {
     public readBoard(boardId, callback): void {
         var query = {key: this.key, token: this.token};
 
-        var url = this.uri + '/1/board/' + boardId;
+        var url = this._uri + '/1/board/' + boardId;
         console.log(url);
 
         this.makeRequest(restler.get, url, { query: query }, callback);

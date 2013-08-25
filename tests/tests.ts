@@ -33,7 +33,5 @@ class TrelloConfigTests extends tsUnit.TestClass {
 }
 
 var test = new tsUnit.Test();
-
 test.addTestClass(new TrelloConfigTests());
-
 test.showResults(test.run());

@@ -61,6 +61,10 @@
     <Content Include="Config\config.js">
       <DependentUpon>config.ts</DependentUpon>
     </Content>
+    <TypeScriptCompile Include="express\server.ts" />
+    <Content Include="express\server.js">
+      <DependentUpon>server.ts</DependentUpon>
+    </Content>
     <Content Include="Lib\fetcher.js">
       <DependentUpon>fetcher.ts</DependentUpon>
     </Content>
@@ -311,6 +315,9 @@
     <Content Include="node_modules\restler\MIT-LICENSE" />
     <Content Include="node_modules\restler\package.json" />
     <Content Include="node_modules\restler\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="node_modules\express\.npmignore" />

@@ -4,7 +4,7 @@ var Trello = (function () {
     function Trello(key, token) {
         this.key = key;
         this.token = token;
-        this.uri = "https://api.trello.com";
+        this._uri = "https://api.trello.com";
         this.key = key;
         this.token = token;
     }
@@ -21,7 +21,7 @@ var Trello = (function () {
     Trello.prototype.readBoard = function (boardId, callback) {
         var query = { key: this.key, token: this.token };
 
-        var url = this.uri + '/1/board/' + boardId;
+        var url = this._uri + '/1/board/' + boardId;
         console.log(url);
 
         this.makeRequest(restler.get, url, { query: query }, callback);

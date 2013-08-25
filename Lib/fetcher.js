@@ -8,6 +8,8 @@ var Fetcher = (function () {
     Fetcher.prototype.fetch = function (board) {
         this.trello.readBoard(board, function (data) {
             console.log(data);
+
+            return data;
         });
     };
     return Fetcher;
