@@ -2,7 +2,7 @@ import config = require('../Config/config');
 import trello = require('./trello');
 
 export interface IFetcher {
-    fetch(board: string): any;
+    fetch(board: string, callback: (data: any) => any): any;
 }
 
 export class Fetcher implements IFetcher {
@@ -12,11 +12,9 @@ export class Fetcher implements IFetcher {
         this.trello = new trello.Trello(config.getDeveloperApiKey(), config.getToken());
     }
 
-    public fetch(board: string) {
+    public fetch(board: string, callback: (data: any) => any) {
         this.trello.readBoard(board, function (data) {
-            console.log(data);
-
-            return data;
+            callback(data);
         });
     }
 }

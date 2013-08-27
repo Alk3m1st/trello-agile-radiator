@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+
+	div#loggedOut
+		p You are not logged in to Trello
+
+		a#logIn(href='') Connect to Trello
+
+		// form(method='post')
+			label Dev App Key:
+				input(name='devAppKey', type='text')
+			label Dev API Secret:
+				input(name='devApiSecret', type='text')
+			label Token:
+				input(name='token', type='text')
+			input(type='submit', value='Fetch')
+
+	div#loggedIn
+		p Logged in as
+			span#fullName
+
+		a#logOut(href='') Log out
+
+		div#output
