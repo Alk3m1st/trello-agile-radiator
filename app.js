@@ -12,10 +12,10 @@ var f = new fetcher.Fetcher(TrelloAuthConfig);
 var app = new express.Express();
 app.init(3000);
 
-app.addGetRoute("/index", index.index);
+app.addGetRoute("/", index.index);
 
 // Testing form post
-app.addPostRoute("/index", function (req, res) {
+app.addPostRoute("/", function (req, res) {
     console.log(req.body.devAppKey);
 
     // test board
