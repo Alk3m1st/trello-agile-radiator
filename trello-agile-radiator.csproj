@@ -718,7 +718,6 @@
   <ItemGroup>
     <Content Include="node_modules\express\.npmignore" />
     <Content Include="node_modules\express\.travis.yml" />
-    <Content Include="node_modules\express\bin\express" />
     <Content Include="node_modules\express\History.md" />
     <Content Include="node_modules\express\LICENSE" />
     <Content Include="node_modules\express\Makefile" />
