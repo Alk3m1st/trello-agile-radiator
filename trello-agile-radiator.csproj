@@ -254,13 +254,6 @@
     <Content Include="node_modules\express\node_modules\cookie\index.js" />
     <Content Include="node_modules\express\node_modules\cookie\test\parse.js" />
     <Content Include="node_modules\express\node_modules\cookie\test\serialize.js" />
-    <Content Include="node_modules\express\node_modules\debug\debug.js" />
-    <Content Include="node_modules\express\node_modules\debug\example\app.js" />
-    <Content Include="node_modules\express\node_modules\debug\example\browser.html" />
-    <Content Include="node_modules\express\node_modules\debug\example\wildcards.js" />
-    <Content Include="node_modules\express\node_modules\debug\example\worker.js" />
-    <Content Include="node_modules\express\node_modules\debug\index.js" />
-    <Content Include="node_modules\express\node_modules\debug\lib\debug.js" />
     <Content Include="node_modules\express\node_modules\fresh\index.js" />
     <Content Include="node_modules\express\node_modules\methods\index.js" />
     <Content Include="node_modules\express\node_modules\mkdirp\examples\pow.js" />
@@ -792,11 +785,6 @@
     <Content Include="node_modules\express\node_modules\cookie\package.json" />
     <Content Include="node_modules\express\node_modules\cookie\README.md" />
     <Content Include="node_modules\express\node_modules\cookie\test\mocha.opts" />
-    <Content Include="node_modules\express\node_modules\debug\.npmignore" />
-    <Content Include="node_modules\express\node_modules\debug\component.json" />
-    <Content Include="node_modules\express\node_modules\debug\History.md" />
-    <Content Include="node_modules\express\node_modules\debug\package.json" />
-    <Content Include="node_modules\express\node_modules\debug\Readme.md" />
     <Content Include="node_modules\express\node_modules\fresh\.npmignore" />
     <Content Include="node_modules\express\node_modules\fresh\History.md" />
     <Content Include="node_modules\express\node_modules\fresh\Makefile" />
