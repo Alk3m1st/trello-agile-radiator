@@ -1,6 +1,6 @@
 import config = require('Config/config');
 import fetcher = require('Lib/fetcher');
-import express = require('express/server');
+import express = require('express/express-server');
 
 import index = module('./routes/index');
 

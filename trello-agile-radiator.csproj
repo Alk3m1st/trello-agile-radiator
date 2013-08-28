@@ -56,15 +56,15 @@
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
   </PropertyGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="server.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\config.js">
       <DependentUpon>config.ts</DependentUpon>
     </Content>
-    <TypeScriptCompile Include="express\server.ts" />
-    <Content Include="express\server.js">
-      <DependentUpon>server.ts</DependentUpon>
+    <TypeScriptCompile Include="express\express-server.ts" />
+    <Content Include="express\express-server.js">
+      <DependentUpon>express-server.ts</DependentUpon>
     </Content>
     <Content Include="Lib\fetcher.js">
       <DependentUpon>fetcher.ts</DependentUpon>
@@ -702,8 +702,8 @@
     </Content>
     <TypeScriptCompile Include="Lib\fetcher.ts" />
     <TypeScriptCompile Include="Config\config.ts" />
-    <Content Include="app.js">
-      <DependentUpon>app.ts</DependentUpon>
+    <Content Include="server.js">
+      <DependentUpon>server.ts</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
