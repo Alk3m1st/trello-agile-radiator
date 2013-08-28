@@ -708,7 +708,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="node_modules\restler\.npmignore" />
-    <Content Include="node_modules\restler\bin\restler" />
     <Content Include="node_modules\restler\MIT-LICENSE" />
     <Content Include="node_modules\restler\package.json" />
     <Content Include="node_modules\restler\README.md" />
@@ -746,7 +745,6 @@
     <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\LICENSE" />
     <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\package.json" />
     <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\Readme.md" />
-    <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\file\binaryfile.tar.gz" />
     <Content Include="node_modules\express\node_modules\connect\node_modules\formidable\test\fixture\http\special-chars-in-filename\info.md" />
     <Content Include="node_modules\express\node_modules\connect\node_modules\pause\.npmignore" />
     <Content Include="node_modules\express\node_modules\connect\node_modules\pause\History.md" />
@@ -801,7 +799,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="node_modules\jade\.npmignore" />
-    <Content Include="node_modules\jade\bin\jade" />
     <Content Include="node_modules\jade\component.json" />
     <Content Include="node_modules\jade\jade-language.md" />
     <Content Include="node_modules\jade\jade.md" />
@@ -820,7 +817,6 @@
     <Content Include="node_modules\jade\node_modules\constantinople\node_modules\.bin\uglifyjs.cmd" />
     <Content Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\.npmignore" />
     <Content Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\.travis.yml" />
-    <Content Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\bin\uglifyjs" />
     <Content Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\LICENSE" />
     <Content Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\node_modules\async\component.json" />
     <Content Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\node_modules\async\LICENSE" />
@@ -972,7 +968,6 @@
     <Content Include="node_modules\jade\node_modules\transformers\node_modules\promise\package.json" />
     <Content Include="node_modules\jade\node_modules\transformers\node_modules\promise\Readme.md" />
     <Content Include="node_modules\jade\node_modules\transformers\node_modules\uglify-js\.npmignore" />
-    <Content Include="node_modules\jade\node_modules\transformers\node_modules\uglify-js\bin\uglifyjs" />
     <Content Include="node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\.travis.yml" />
     <Content Include="node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\LICENSE" />
     <Content Include="node_modules\jade\node_modules\transformers\node_modules\uglify-js\node_modules\optimist\node_modules\wordwrap\.npmignore" />
@@ -999,7 +994,6 @@
     <Content Include="node_modules\jade\node_modules\with\node_modules\.bin\uglifyjs.cmd" />
     <Content Include="node_modules\jade\node_modules\with\node_modules\uglify-js\.npmignore" />
     <Content Include="node_modules\jade\node_modules\with\node_modules\uglify-js\.travis.yml" />
-    <Content Include="node_modules\jade\node_modules\with\node_modules\uglify-js\bin\uglifyjs" />
     <Content Include="node_modules\jade\node_modules\with\node_modules\uglify-js\LICENSE" />
     <Content Include="node_modules\jade\node_modules\with\node_modules\uglify-js\node_modules\async\component.json" />
     <Content Include="node_modules\jade\node_modules\with\node_modules\uglify-js\node_modules\async\LICENSE" />
@@ -1040,6 +1034,11 @@
     <Content Include="views\layout.jade" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="node_modules\jade\bin\" />
+    <Folder Include="node_modules\jade\node_modules\constantinople\node_modules\uglify-js\bin\" />
+    <Folder Include="node_modules\jade\node_modules\transformers\node_modules\uglify-js\bin\" />
+    <Folder Include="node_modules\jade\node_modules\with\node_modules\uglify-js\bin\" />
+    <Folder Include="node_modules\restler\bin\" />
     <Folder Include="public\images\" />
   </ItemGroup>
 </Project>
