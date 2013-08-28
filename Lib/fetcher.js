@@ -14,4 +14,3 @@ var Fetcher = (function () {
 })();
 exports.Fetcher = Fetcher;
 
-//@ sourceMappingURL=fetcher.js.map

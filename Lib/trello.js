@@ -30,4 +30,3 @@ var Trello = (function () {
 })();
 exports.Trello = Trello;
 
-//@ sourceMappingURL=trello.js.map

@@ -1,4 +1,3 @@
-// Class
 var TrelloAuthConfig = (function () {
     function TrelloAuthConfig(developerAppKey, developerApiSecret, token) {
         this.developerAppKey = developerAppKey;
@@ -20,4 +19,3 @@ var TrelloAuthConfig = (function () {
 })();
 exports.TrelloAuthConfig = TrelloAuthConfig;
 
-//@ sourceMappingURL=config.js.map

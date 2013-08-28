@@ -14,7 +14,6 @@ function onAuthorize() {
 
         var $boards = $("<div>").text("Loading Boards...").appendTo("#output");
 
-        // Get the boards
         Trello.get("members/my/boards", function (boards) {
             $boards.empty();
             $.each(boards, function (ix, board) {
@@ -28,7 +27,6 @@ function onAuthorize() {
     });
 }
 
-// TODO: Replace jQuery with KnockoutJS
 $(function () {
     Trello.authorize({
         interactive: false,
@@ -55,4 +53,3 @@ $(function () {
 
     updateStatus();
 });
-//@ sourceMappingURL=trello-connect.js.map

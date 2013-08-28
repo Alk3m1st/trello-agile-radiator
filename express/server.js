@@ -16,10 +16,9 @@ var Express = (function () {
         this._app.post(path, callback);
     };
 
-    Express.prototype.init = function (port) {
-        this._port = process.env.PORT || port;
+    Express.prototype.init = function () {
+        this._port = process.env.PORT || 3000;
 
-        // all environments
         this._app.set('port', this._port);
         this._app.set('views', 'views');
         this._app.set('view engine', 'jade');
@@ -51,4 +50,3 @@ var Express = (function () {
 })();
 exports.Express = Express;
 
-//@ sourceMappingURL=server.js.map

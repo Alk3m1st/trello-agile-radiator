@@ -12,7 +12,7 @@ var TrelloAuthConfig = new config.TrelloAuthConfig('developerAppKey',
 var f = new fetcher.Fetcher(TrelloAuthConfig);
 
 var app = new express.Express();
-app.init(3000);
+app.init();
 
 app.addGetRoute("/", index.index);
 

@@ -31,8 +31,8 @@ export class Express implements IExpress {
         this._app.post(path, callback);
     }
 
-    public init(port: number): void {
-        this._port = process.env.PORT || port;
+    public init(): void {
+        this._port = process.env.PORT || 3000;
 
         // all environments
         this._app.set('port', this._port);

@@ -40,4 +40,3 @@ var test = new tsUnit.Test();
 test.addTestClass(new TrelloConfigTests());
 test.showResults(test.run());
 
-//@ sourceMappingURL=tests.js.map

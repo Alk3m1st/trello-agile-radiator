@@ -234,4 +234,3 @@ var TestResult = (function () {
 })();
 exports.TestResult = TestResult;
 
-//@ sourceMappingURL=tsUnit.js.map
